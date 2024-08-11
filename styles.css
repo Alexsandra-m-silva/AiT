@@ -50,4 +50,6 @@ canvas {
     position: relative;
     text-align: center;
     padding-block: 15rem;
+    margin: 0;
+    
 }
