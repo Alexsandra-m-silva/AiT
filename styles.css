@@ -49,5 +49,5 @@ canvas {
     font-size: 5rem;
     position: relative;
     text-align: center;
-    padding: 25rem;
+    padding-block: 15rem;
 }
