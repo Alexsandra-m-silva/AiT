@@ -1,12 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: black;
     margin: 0;
     padding: 0;
-}
-
-h1 {
-    color: #00ca76;
 }
 
 p {
@@ -15,9 +11,11 @@ p {
 
 html {
     background: #000; /* Fixed the background color value */
-    color: #fff; /* Fixed the color value */
+    color: black; /* Fixed the color value */
     overflow: hidden;
 }
+
+/* Fractals */
 
 canvas {
     position: absolute;
@@ -26,20 +24,11 @@ canvas {
     height: 100vmin;
     inset: 0;
     margin: auto;
+    z-index: 0;
 
     /* Uncomment and fix these if needed */
     /* image-rendering: crisp-edges; */
     /* animation: hue 2s linear infinite, rot 1s steps(11) infinite; */
-}
-
-.ctrl {
-    position: absolute;
-    z-index: 1;
-}
-
-input[type="number"] {
-    width: 4em;
-    filter: invert(1);
 }
 
 @keyframes rot {
@@ -52,4 +41,13 @@ input[type="number"] {
     to {
         filter: hue-rotate(1turn);
     }
+}
+
+/* header */
+.header {
+    color: azure;
+    font-size: 5rem;
+    position: relative;
+    text-align: center;
+    padding: 25rem;
 }

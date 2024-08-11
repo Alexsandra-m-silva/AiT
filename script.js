@@ -21,6 +21,7 @@ let pow = 0.575;
 let colgen = 6;
 let cntp = cnt ** pow;
 let step = 0;
+
 function draw() {
   if (--step < 0) return;
   let i = lasts[0] + ((Math.random() ** 2 * cntp) | 0);
@@ -84,3 +85,5 @@ resize();
 loop();
 
 document.body.appendChild(canvas);
+
+// Flip Text
