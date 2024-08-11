@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #23e40a;
+}
+
+html {
+    background: #000; /* Fixed the background color value */
+    color: black; /* Fixed the color value */
+    overflow: hidden;
+}
+
+/* Fractals */
+
+canvas {
+    position: absolute;
+    vertical-align: top;
+    width: 100vmin;
+    height: 100vmin;
+    inset: 0;
+    margin: auto;
+    z-index: 0;
+
+    /* Uncomment and fix these if needed */
+    /* image-rendering: crisp-edges; */
+    /* animation: hue 2s linear infinite, rot 1s steps(11) infinite; */
+}
+
+@keyframes rot {
+    to {
+        rotate: 1turn;
+    }
+}
+
+@keyframes hue {
+    to {
+        filter: hue-rotate(1turn);
+    }
+}
+
+/* header */
+.header {
+    color: azure;
+    font-size: 5rem;
+    position: relative;
+    text-align: center;
+    padding: 25rem;
+}
